@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EFF0E4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MakeClaimtController">
+   <children>
+      <Label layoutX="35.0" layoutY="64.0" prefHeight="40.0" prefWidth="326.0" text="Please give us feedback, we always listen to you">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="claimtArea" layoutX="35.0" layoutY="117.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="submit" layoutX="280.0" layoutY="291.0" mnemonicParsing="false" onAction="#submit" text="SUBMIT" />
+      <Button fx:id="Menu" layoutX="381.0" layoutY="291.0" mnemonicParsing="false" onAction="#menu" text="Go back to the menu" />
+      <Label fx:id="labelC" layoutX="309.0" layoutY="182.0" prefHeight="40.0" prefWidth="206.0" />
+      <TextField fx:id="claimtID" layoutX="35.0" layoutY="92.0" />
+   </children>
+</AnchorPane>

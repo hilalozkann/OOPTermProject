@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EFF0E4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUpController">
+   <children>
+      <Label layoutX="53.0" layoutY="31.0" prefHeight="29.0" prefWidth="115.0" text="SIGN UP">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutY="74.0" prefHeight="0.0" prefWidth="600.0" />
+      <TextField fx:id="NUName" layoutX="52.0" layoutY="229.0" prefHeight="26.0" prefWidth="166.0" promptText="Enter your name" />
+      <TextField fx:id="NUUsername" layoutX="52.0" layoutY="112.0" prefHeight="26.0" prefWidth="166.0" promptText="Choose yourself a username" />
+      <PasswordField fx:id="NUPassword" layoutX="52.0" layoutY="153.0" prefHeight="26.0" prefWidth="166.0" promptText="Choose yourself a password" />
+      <TextField fx:id="NUEmail" layoutX="52.0" layoutY="268.0" prefHeight="26.0" prefWidth="166.0" promptText="Enter your e-mail" />
+      <Button fx:id="signUpButton" layoutX="116.0" layoutY="304.0" mnemonicParsing="false" onAction="#signUpButton" prefHeight="26.0" prefWidth="103.0" text="Sign up" />
+      <Label fx:id="labelS" layoutX="346.0" layoutY="158.0" />
+      <TextField fx:id="userType" layoutX="52.0" layoutY="187.0" prefHeight="26.0" prefWidth="166.0" promptText="user type" />
+      <TextField fx:id="loginID" layoutX="53.0" layoutY="76.0" prefHeight="26.0" prefWidth="166.0" />
+      <Button fx:id="goLogin" layoutX="367.0" layoutY="305.0" mnemonicParsing="false" onAction="#goLogin" text="Go back to login page" />
+   </children>
+</AnchorPane>
